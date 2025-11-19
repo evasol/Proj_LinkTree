@@ -1,35 +1,40 @@
 'use client';
 
 import Image from "next/image";
+import ParticleBackground from "../components/ParticleBackground"
 
 export default function Home() {
+  
   const handleLinkClick = (url: string) => {
     window.location.href = url;
   };
   
   return (
       <div>
-      <div className="flex flex-col mt-[20px] lg:mt-[50px]">
-      <img src="https://i.guim.co.uk/img/media/327aa3f0c3b8e40ab03b4ae80319064e401c6fbc/377_133_3542_2834/master/3542.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=34d32522f47e4a67286f9894fc81c863" className="circle avatar w-[135px] h-[135px] lg:w-[180px] lg:h-[180px] mb-2"></img>
-      <h1 className="text-3xl font-bold text-center mt-2 mb-2">Alexandra Shvydchenko</h1>
-      <p className="text-center mb-10">Memento Mori. 67 67 67 67 💀</p>
+        <ParticleBackground className="absolute inset-0 -z-10"/>
+      <div className="flex flex-col mt-[20px] lg:mt-[10px]">
+      <img src="profile.png" className="avatar w-[200px] h-[200px] lg:w-[300px] lg:h-[300px]"></img>
+      <h1 className="text-4xl lg:text-7xl -mt-3 lg:-mt-8 text-center text-4xl" style={{color:'#FFEDD4', fontFamily: 'lexiel_art'}}>CUTE ANIMAL & FAN ART</h1>
+      <p className="text-xl lg:text-3xl -mt-2 text-center mb-8 " style={{color:'#FFEDD4', fontFamily: 'intrepid-reg'}}>Keychains | Stickers | Posters</p>
       </div>
-      <div className="flex flex-col items-center justify-center gap-7 mt-7 lg:mt-0 lg:gap-10">
-      <button onClick={() => handleLinkClick('https://instagram.com')} className="w-75 lg:w-200 px-6 py-3 bg-white shadow-md content-center text-black rounded-xl hover:bg-blue-600 transition">
-        <p className="font-bold">Instagram</p>
+      <div className="flex flex-col items-center justify-center gap-7 mt-7 lg:mt-0 lg:gap-7">
+      <button onClick={() => handleLinkClick('https://www.instagram.com/lexiel_art')} className="w-75 lg:w-110 px-6 py-3 shadow-md content-center bg-[#B58843] rounded-full hover:bg-[#D4A45B] transition">
+        <p className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)]" style={{color:'#FFEDD4', fontFamily: 'lexiel_art'}}>Instagram</p>
       </button>
-      <button onClick={() => handleLinkClick('https://instagram.com')} className="w-75 lg:w-200 px-6 py-3 bg-white shadow-md content-center text-black rounded-xl hover:bg-blue-600 transition">
-        <p className="font-bold">Twitter</p>
+      <button onClick={() => handleLinkClick('https://www.patreon.com/cw/lexiel_art')} className="w-75 lg:w-110 px-6 py-3 shadow-md content-center bg-[#B58843] rounded-full hover:bg-[#D4A45B] transition">
+        <p className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)]" style={{color:'#FFEDD4', fontFamily: 'lexiel_art'}}>Patreon</p>
       </button>
-      <button onClick={() => handleLinkClick('https://instagram.com')} className="w-75 lg:w-200 px-6 py-3 bg-white shadow-md content-center text-black rounded-xl hover:bg-blue-600 transition">
-        <p className="font-bold">Etsy</p>
+      <button onClick={() => handleLinkClick('https://www.etsy.com/shop/WhimsyInkIE')} className="w-75 lg:w-110 px-6 py-3 shadow-md content-center bg-[#B58843] rounded-full hover:bg-[#D4A45B] transition">
+        <p className="text-4xl drop-shadow-[0_2.2px_1.2px_rgba(0,0,0,1)]" style={{color:'#FFEDD4', fontFamily: 'lexiel_art'}}>Etsy</p>
       </button>
       </div>
+      {/*
       <div className="flex space-x-0 justify-center mt-28 lg:mt-10">
       <img src="instagram_logo.png" className="w-15 h-15 hover:opacity-50 transition-opacity duration-300" onClick={() => handleLinkClick('https://instagram.com')}></img>
       <img src="instagram_logo.png" className="w-15 h-15 hover:opacity-50 transition-opacity duration-300" onClick={() => handleLinkClick('https://instagram.com')}></img>
       <img src="instagram_logo.png" className="w-15 h-15 hover:opacity-50 transition-opacity duration-300" onClick={() => handleLinkClick('https://instagram.com')}></img>
       </div>
+      */}
       </div>
   );
 }

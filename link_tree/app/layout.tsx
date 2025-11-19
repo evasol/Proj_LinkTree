@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Alex LinkTree",
+  title: "Lexiel Art",
   description: "Created by Ivan Shvydchenko",
 };
 
