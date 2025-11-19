@@ -2,16 +2,16 @@
 
 @font-face {
   font-family: 'lexiel_art';
-  src: url('/fonts/Handwriting-Regular.ttf') format('truetype'),
-      url('/fonts/Handwriting-Regular.eot'),
-      url('/fonts/Handwriting-Regular.svg') format('svg');
+  src: url('fonts/Handwriting-Regular.ttf') format('truetype'),
+      url('fonts/Handwriting-Regular.eot'),
+      url('fonts/Handwriting-Regular.svg') format('svg');
 }
 
 @font-face {
   font-family: 'intrepid-reg';
-  src: url('/fonts/intrepid.ttf') format('truetype'),
-      url('/fonts/intrepid.eot'),
-      url('/fonts/intrepid.svg') format('svg');
+  src: url('fonts/intrepid.ttf') format('truetype'),
+      url('fonts/intrepid.eot'),
+      url('fonts/intrepid.svg') format('svg');
 }
 
 body {
