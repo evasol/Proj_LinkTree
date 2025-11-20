@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Lexiel Art",
-  description: "Created by Ivan Shvydchenko",
+  description: "Artist that draws Cute Animals and Fan Art that sells keychains, stickers and posters - Website Created by Ivan Shvydchenko",
 };
 
 export default function RootLayout({

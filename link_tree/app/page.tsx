@@ -14,7 +14,7 @@ export default function Home() {
         <ParticleBackground className="absolute inset-0 -z-10"/>
       <div className="flex flex-col mt-[20px] lg:mt-[10px]">
       <img src="profile.png" className="avatar w-[200px] h-[200px] lg:w-[300px] lg:h-[300px]"></img>
-      <h1 className="text-4xl lg:text-7xl -mt-3 lg:-mt-8 text-center text-4xl" style={{color:'#FFEDD4', fontFamily: 'lexiel_art'}}>CUTE ANIMAL & FAN ART</h1>
+      <h1 className="text-4xl lg:text-7xl -mt-3 lg:-mt-8 text-center text-4xl" style={{color:'#FFEDD4', fontFamily: 'lexiel_art'}}>CUTE ANIMALS & FAN ART</h1>
       <p className="text-xl lg:text-3xl -mt-2 text-center mb-8 " style={{color:'#FFEDD4', fontFamily: 'intrepid-reg'}}>Keychains | Stickers | Posters</p>
       </div>
       <div className="flex flex-col items-center justify-center gap-7 mt-7 lg:mt-0 lg:gap-7">
